@@ -182,8 +182,8 @@ config:
       balance: '<BALANCE>'
   sequencer:
     initialBlockHeight: <INITIAL_SEQUENCER_BLOCK_HEIGHT>
-    websocket: wss://rpc.sequencer.dusk-3.devnet.astria.org/websocket
-    rpc: https://rpc.sequencer.dusk-3.devnet.astria.org
+    websocket: wss://rpc.sequencer.dusk-5.devnet.astria.org/websocket
+    rpc: https://rpc.sequencer.dusk-5.devnet.astria.org
 ingress:
   hostname: <YOUR_HOSTNAME>
 celestia-node:
@@ -217,7 +217,7 @@ export SEQUENCER_ACCOUNT_ADDRESS=8a2f...5f68
 
 ## Fund your Sequencer Account
 
-Navigate to [https://faucet.sequencer.dusk-3.devnet.astria.org/](https://faucet.sequencer.dusk-3.devnet.astria.org/)
+Navigate to [https://faucet.sequencer.dusk-3.devnet.astria.org/](https://faucet.sequencer.dusk-5.devnet.astria.org/)
 to view the sequencer faucet.
 
 Enter your `<SEQUENCER_ACCOUNT_ADDRESS>` into the text box

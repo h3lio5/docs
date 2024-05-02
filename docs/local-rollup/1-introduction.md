@@ -32,14 +32,14 @@ git clone --branch dusk-3 https://github.com/astriaorg/dev-cluster.git
 ## Setup Local Environment
 
 We use the [Astria
-dev-cluster](https://github.com/astriaorg/dev-cluster) to setup a local
+dev-cluster](https://github.com/astriaorg/astria) to setup a local
 Kubernetes (k8s) cluster where we will deploy our local rollup.
 
 :::tip
 Make sure that Docker is running before continuing.
 :::
 
-In the __dev-cluster__ repo, run:
+In the __astria__ repo, run:
 
 ```sh
 just create-cluster
@@ -141,8 +141,8 @@ config:
       balance: '<BALANCE>'
   sequencer:
     initialBlockHeight: <INITIAL_SEQUENCER_BLOCK_HEIGHT>
-    websocket: wss://rpc.sequencer.dusk-3.devnet.astria.org/websocket
-    rpc: https://rpc.sequencer.dusk-3.devnet.astria.org
+    websocket: wss://rpc.sequencer.dusk-5.devnet.astria.org/websocket
+    rpc: https://rpc.sequencer.dusk-5.devnet.astria.org
 ingress:
   hostname: localdev.me
 celestia-node:
@@ -176,7 +176,7 @@ export SEQUENCER_ACCOUNT_ADDRESS=8a2f...5f68
 
 ## Fund your Sequencer Account
 
-Navigate to < <https://faucet.sequencer.dusk-3.devnet.astria.org/> > to view the
+Navigate to < <https://faucet.sequencer.dusk-5.devnet.astria.org/> > to view the
  sequencer faucet.
 
 Enter your `<SEQUENCER_ACCOUNT_ADDRESS>` into the text box to send
