@@ -111,6 +111,9 @@ Open a new terminal window and initialize the cli:
 ```bash
 astria-go dev init
 ```
+:::tip
+To start a clean environment run `astria-go dev purge all` which will delete all data for a given instance. This command will remove keys stored in keyfiles inside the `~/.astria` directory!
+:::
 
 When running against the remote sequencer, you will also need to create a new
 sequencer account.

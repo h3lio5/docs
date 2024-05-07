@@ -94,6 +94,6 @@ This will clean the data your rollup and allow it to resync.
 If issues still persist, you can clean the data for the rollup and the sequencer
 (if you are running a local sequencer):
 1. Stop your rollup and the cli.
-2. With the cli run `astria-go dev clean` then `astria-go dev init`.
+2. With the cli run `astria-go dev purge all` then `astria-go dev init`.
 3. Restart the rollup with `just clean-restart`.
 4. Restart the cli with `astria-go dev run`.

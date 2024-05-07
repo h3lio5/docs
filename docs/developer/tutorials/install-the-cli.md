@@ -20,7 +20,7 @@ cd astria-cli-go
 just build
 
 # run the cli in the repo directory
-just run "version"
+just run version
 
 # OR you can move the binary to a location in your PATH if you'd like
 mv ./bin/astria-go /usr/local/bin/
