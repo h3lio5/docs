@@ -12,3 +12,5 @@ bundle. This allows users to specify that a transaction on Rollup A can be
 included in a block if and only if a different transaction on Rollup B is also
 included in the same block. By enabling such conditional transaction inclusion,
 Astria unlocks exciting possibilities such as atomic cross-rollup arbitrage.
+
+If you want to learn more about the shared sequencer and the Astria stack, visit the [Astria blog post](https://hackmd.io/@astriaorg/HJ6cCpp9T) or the official [specs](https://github.com/astriaorg/astria/tree/main/specs).
